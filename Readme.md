@@ -5,10 +5,13 @@ Requirements:
 - Maven 3.3.1
 - Docker - for localstack
 
-Build project:
+Build and run tests:
 
 ```shell
-mvn clean install
+mvn clean test
 ```
 
 First build might take longer if you don't have localstack fetched
+
+## Concept
+![The concept of the service](Concept-Diagram.png)
